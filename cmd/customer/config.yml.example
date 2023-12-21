@@ -1,0 +1,29 @@
+fullName: PNM - Exam - JTI
+codeName: pnm-customer
+version: 0.0.1
+env: development
+lang: en
+
+httpConf:
+  host: 127.0.0.1
+  port: 8100
+
+loggerConf:
+  mode:
+  level:
+  output:
+
+langConf:
+  active: en
+  srcPath: ../../internal/language/en/language.json
+
+dbConf:
+  dsn: user:password@tcp(127.0.0.1:3306)/pnm-exam-jti?charset=utf8mb4&parseTime=True&loc=Local
+  maxOpenConns: 5
+  maxIdleConns: 5
+  maxIdleTime: 100
+  dialect: mysql
+
+authConf:
+  atSecretKey: OLDWORLDORDER
+  rtSecretKey: BLACKSEAOFIGNORANCE
