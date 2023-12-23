@@ -9,6 +9,6 @@ import (
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	hh.WriteJSON(w, http.StatusOK, td.Message{
-		Message: "Welcome to SKGOBO API!!",
+		Message: "Welcome to the API!!",
 	}, nil)
 }

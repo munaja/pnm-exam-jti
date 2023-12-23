@@ -4,8 +4,11 @@ go 1.21
 
 require (
 	github.com/go-chi/chi/v5 v5.0.11
+	github.com/golang-jwt/jwt v3.2.2+incompatible
+	github.com/google/uuid v1.5.0
 	github.com/jinzhu/copier v0.4.0
-	github.com/karincake/apem v0.0.12
+	github.com/karincake/apem v0.0.12-20231219-a
+	github.com/karincake/getuk v0.0.2
 	github.com/karincake/tempe v0.0.8
 	github.com/spf13/viper v1.18.2
 	go.uber.org/zap v1.26.0
@@ -18,7 +21,6 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-redis/redis v6.15.9+incompatible // indirect
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
-	github.com/google/uuid v1.4.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
@@ -40,7 +42,7 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/crypto v0.16.0 // indirect
-	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
+	golang.org/x/exp v0.0.0-20231206192017-f3f8817b8deb // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
