@@ -16,8 +16,11 @@ func Create(w http.ResponseWriter, r *http.Request) {
 	if hh.ValidateStructByIOR(w, r.Body, &input) == false {
 		return
 	}
+<<<<<<< HEAD
 
 	input.User_Id = r.Context().Value("authInfo").(*jwt.AuthInfo).User_Id // should be safe being validated by auth
+=======
+>>>>>>> main
 	res, err := s.Create(input)
 	hh.DataResponse(w, res, err)
 }
